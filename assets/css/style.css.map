@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyDE;ACzDF,SAAU;EACR,gBAAgB,EAAE,UAAU;;AAG9B,OAAQ;EACN,SAAS,EAAE,IAAI;;ACLjB;;;;;;;;GAQG;AACH;SACU;EACN,OAAO,EAAE,GAAG;EAAE,OAAO;EACrB,OAAO,EAAE,KAAK;EAAE,OAAO;;AAG3B,SAAU;EACN,KAAK,EAAE,IAAI;;AAGf;;;GAGG;AACH,GAAI;EACA,KAAK,EAAE,CAAC",
+"sources": ["../sass/settings/_color.scss","../sass/base/_typography.scss","../sass/trumps/_clearfix.scss"],
+"names": [],
+"file": "style.css"
+}
