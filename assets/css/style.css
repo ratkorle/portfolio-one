@@ -60,7 +60,8 @@ category: Basics
   background-color: lightgreen; }
 
 .text_1 {
-  font-size: 15px; }
+  font-size: 15px;
+  color: orange; }
 
 /**
  * For modern browsers
