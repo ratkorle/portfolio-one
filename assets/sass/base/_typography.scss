@@ -1,8 +1,51 @@
-.main_box {
-  background-color: lightgreen;
+$color-1: #fff;
+
+.navbuttons {
+display: block;
+
+
 }
 
 .text_1 {
   font-size: 15px;
   color: orange;
+}
+
+.topic {
+  color: #dedede;
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+
+.main_box {
+  height: 100vh;
+  padding: 1% 5%;
+  background-image: url('../../img/Top/BG.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.firstline {
+  display: inline-block;
+  margin: 5%;
+}
+.secondline {
+  display: inline-block;
+  margin: 5%;
+}
+.img_box {
+  margin: 5%
+}
+.logos{
+  display: inline-block;
+  margin: 5%;
+  width: 100%;
+  text-align: right;
+}
+
+.social_icon {
+  padding: 0 5% 0 0;
+  font-size: 30px !important;
+  color: $color-1;
 }

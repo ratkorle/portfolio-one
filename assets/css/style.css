@@ -56,13 +56,150 @@ category: Basics
 </div>
 
 */
-.main_box {
-  background-color: lightgreen; }
+.navbuttons {
+  display: block; }
 
 .text_1 {
   font-size: 15px;
   color: orange; }
 
+.topic {
+  color: #dedede;
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  float: left; }
+
+.main_box {
+  height: 100vh;
+  padding: 1% 5%;
+  background-image: url("../../img/Top/BG.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.firstline {
+  display: inline-block;
+  margin: 5%; }
+
+.secondline {
+  display: inline-block;
+  margin: 5%; }
+
+.img_box {
+  margin: 5%; }
+
+.logos {
+  display: inline-block;
+  margin: 5%;
+  width: 100%;
+  text-align: right; }
+
+.social_icon {
+  padding: 0 5% 0 0;
+  font-size: 30px !important;
+  color: #fff; }
+
+.hey {
+  text-align: center; }
+
+.aboutme {
+  padding-top: 200px; }
+
+.work {
+  margin: 2% 0; }
+
+.check {
+  color: #000; }
+
+.this {
+  margin: 0 0 0 12%;
+  font-size: 4vw;
+  color: #000; }
+
+.main_img_box {
+  position: relative;
+  top: 0;
+  height: 100%; }
+
+.behanance {
+  padding-top: 20%;
+  padding-left: 8%; }
+
+.apple {
+  padding-left: 75%; }
+
+.google {
+  margin-left: -48%; }
+
+.trees {
+  margin-left: -10%; }
+
+.forest {
+  padding-right: 10%; }
+
+.primary_text {
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  font-size: 24px;
+  color: #000;
+  font-weight: bold; }
+
+.secondary_text {
+  position: absolute;
+  top: 30%;
+  left: -10%;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+.pdb {
+  padding-bottom: 10%; }
+
+.more {
+  margin-bottom: 10%;
+  margin-top: 15%; }
+
+.touch {
+  margin: 10% 0; }
+
+/*====================================================================
+============ Bootstrap 3 Media Queries====================
+====================================================================*/
+@media only screen and (max-width: 420px) {
+  .check {
+    font-size: 2vw; } }
+/*==================================================
+============== Mobile First Method =================
+=              Custom, iPhone Retina
+==================================================*/
+@media only screen and (min-width: 320px) {
+  .check {
+    font-size: 3vw; } }
+/*==================================================
+=       Extra Small Devices, Portrait Phones       =
+==================================================*/
+@media only screen and (min-width: 480px) {
+  .check {
+    font-size: 4vw; } }
+/*=================================================================================
+= Small Devices, Landscape Phones and Phablets, Portrait Tablets, Small Desktops =
+=================================================================================*/
+@media only screen and (min-width: 768px) {
+  .check {
+    font-size: 4vw; } }
+/*======================================================
+= Medium Devices, Landscape Tablets, Laptops, Desktops =
+======================================================*/
+@media only screen and (min-width: 992px) {
+  .check {
+    font-size: 8vw; } }
+/*==================================================
+=   Large Devices, Large Desktops, Wide Screens    =
+==================================================*/
+@media only screen and (min-width: 1200px) {
+  .check {
+    font-size: 6vw; } }
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
